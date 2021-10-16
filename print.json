@@ -1,0 +1,19 @@
+{
+    "code":
+    [
+        {
+            "function":
+            {
+                "name": "print",
+                "args":
+                {
+                    "value": 
+                    {
+                        "str": "Hello World",
+                        "variable": null
+                    }
+                }
+            }
+        }
+    ]
+}

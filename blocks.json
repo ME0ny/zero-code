@@ -1,0 +1,45 @@
+{
+    "variable":
+    {
+        "types":
+        [
+            "int", "float", "char", "str"
+        ]
+    },
+    "standart_function":
+    {
+        "names":
+        [
+            "print"
+        ],
+        "functions":
+        [
+            {
+                "print":
+                {
+                    "args_name":
+                    [
+                        "value", "fd"
+                    ],
+                    "args":
+                    [
+                        {
+                            "value":
+                            {
+                                "types": ["int", "float", "char", "str"],
+                                "default": ""
+                            }   
+                        },
+                        {
+                            "fd":
+                            {
+                                "types": ["int"],
+                                "default": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
